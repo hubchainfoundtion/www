@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="隔离模式" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="53px" height="53px" viewBox="0 0 53 53" enable-background="new 0 0 53 53" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="0.3848" y1="26.5" x2="52.6152" y2="26.5">
+	<stop  offset="0" style="stop-color:#FF9768"/>
+	<stop  offset="1" style="stop-color:#FFBA9A"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="26.5" cy="26.5" r="26.115"/>
+<path fill="#FFFFFF" d="M28.878,13.833h-4.752c-4.372,0-7.916,3.543-7.916,7.916v9.5c0,4.374,3.544,7.918,7.916,7.918h4.749
+	c4.373,0,7.917-3.544,7.917-7.918v-9.5C36.792,17.376,33.248,13.833,28.878,13.833z M28.878,23.88c0,1.313-1.065,2.376-2.376,2.376
+	c-1.313,0-2.376-1.063-2.376-2.376v-3.167c0-1.314,1.063-2.377,2.376-2.377s2.376,1.063,2.376,2.377V23.88z"/>
+</svg>
