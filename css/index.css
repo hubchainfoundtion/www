@@ -65,6 +65,9 @@ p{
 		transition-duration: .5s;
 		box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
 	}
+	.navbar-list ul{
+		padding-right: 60px; 
+	}
 }
 @media screen and (max-width: 1024px) {
 	.navbar {
@@ -72,21 +75,19 @@ p{
 		display: flex;
 		align-items: center;
 		height: 60px;
-		padding-left: 60px;
 		position: fixed;
 		top: 0px;
 		z-index: 999;
 		transition-duration: .5s;
 		box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
 	}
+	.navbar-list ul{
+		padding-right: 16px; 
+	}
 }
 .navbar-list {
 	position: absolute;
 	right: 0px;
-}
-.navbar-list ul{
-	margin-bottom: 0px;
-	padding-right: 50px; 
 }
 .navbar-list ul li {
 	display: inline-block;
@@ -366,5 +367,8 @@ p{
 	}
 	.content {
 		padding-top: 0px; 
+	}
+	.token-title {
+		text-align: center
 	}
 }
