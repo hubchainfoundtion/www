@@ -163,10 +163,10 @@ p{
 	padding-left: 80px;
 }
 .decs {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
 	justify-content: flex-start;
 	position: relative;
 	margin-bottom: 40px;
@@ -271,7 +271,7 @@ p{
 /* 联系我们 */
 .footer {
 	background-color: #141414;
-	height: 670px;
+	/* height: 670px; */
 }
 .footer .title {
 	color: white;
@@ -284,7 +284,7 @@ p{
 }
 
 .footer .content {
-	padding: 60px 0px 90px
+	padding: 60px 0px 90px;
 }
 .footer .contact-title {
 	font-size: 24px;
@@ -306,6 +306,20 @@ p{
 	font-size: 18px;
 	color: #fff;
 	margin-left: 10px;
+}
+@media screen and (min-width: 480px) {
+	.contact-link{
+		float: left;
+	}
+	.contact-QRcode {
+		float: right;
+		text-align: center
+	}
+}
+.contact-QRcode div {
+	font-size: 16px;
+	color: white;
+	margin-top: 18px;
 }
 .copyright img{
 	margin: 43px 0px 30px;
@@ -370,5 +384,9 @@ p{
 	}
 	.token-title {
 		text-align: center
+	}
+	.contact-QRcode{
+		text-align: center;
+		margin-top: 20px;
 	}
 }
