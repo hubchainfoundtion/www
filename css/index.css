@@ -390,3 +390,39 @@ p{
 		margin-top: 20px;
 	}
 }
+
+
+/* HUBchain样式 */
+
+@media screen and (max-width: 1024px) {
+	.HUBchain{
+		position: relative;
+		width: 300%;
+	}
+	.HUBchain img{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.HUBchain{
+		position: relative;
+	}
+	.HUBchain img{
+		width: 100%;
+	}
+}
+.HUBchain a{
+	position: absolute;
+	display: block;
+	width: 180px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+	background-color: #fff;
+	font-size: 1.2rem;
+	font-weight: 600;
+	bottom: 8%;
+	left: 50%;
+	margin-left: -90px;
+	border-radius: 5px;
+}
