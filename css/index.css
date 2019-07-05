@@ -99,10 +99,24 @@ p{
 	justify-content: center;
 }
 .carousel-item{
-	height: 44rem;
+	height: 700px;
+	text-align: center;
 }
 .carousel-item > img{
-	height: 44rem;
+	height: 700px;
+	left: 50%;
+	margin-left: -960px;
+}
+@media screen and (max-width: 768px){
+	.carousel-item{
+		height: 32rem;
+		text-align: center;
+	}
+	.carousel-item > img{
+		height: 32rem;
+		left: 50%;
+		margin-left: -700px;
+	}
 }
 .logo-text {
 	font-size: 40px;
